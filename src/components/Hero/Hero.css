@@ -1,0 +1,68 @@
+.hero{
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper{
+  display: flex;
+   justify-content: space-between;
+}
+
+.hero__title{
+  color: #000;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 39px */
+  margin-top: 97px;
+
+}
+.hero__text{
+  color: #000;
+  text-align: left;
+
+/* body-text */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.hero__discription{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hero__a{
+  height: 50px;
+  width: 250px;
+     font-size: 20px;
+  display: flex;
+padding: 8px 16px;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--blue, #00BAFC);
+color: #fff;
+transition: linear 0.3s;
+}
+.hero__a:hover{
+background-color: #fff;
+color:#00BAFC ;
+width: 255px;
+height: 55px;
+}
+.hero__a:active{
+  opacity: 0.6;
+background: var(--blue, #00BAFC);
+}
+.youtube{
+   width: 455px;
+  height: 258px;
+
+}
+.hero__img{
+  margin-top: 80px;
+  margin-right: 20px;
+}

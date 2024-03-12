@@ -1,0 +1,62 @@
+.footer{
+  background: var(--black, #191919);
+  height: 438px;
+}
+.footer_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_box{
+  color: aliceblue;
+  margin-top: 20px;
+
+}
+
+.footar_boxx{
+  color: aliceblue;
+  margin-top: 60px;
+}
+.footer_item{
+  margin-top: 10px;
+}
+.footer_text{
+  text-align: left;
+  color: aliceblue;
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+.footer_textt{
+  text-align: left;
+  color: aliceblue;
+  margin-right: 65px;
+  font-size: 20px;
+}
+
+.footer_title{
+
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.telegram{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.facebook{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instagram{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

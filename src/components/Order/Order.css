@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.order_title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+p{
+  text-align: center;
+}
+.step_1{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.man1{
+margin-left: 50px;
+transition: linear 0.3s;
+
+
+}
+.man1:hover{
+  box-shadow: 0px 15px 15px 0px rgba(38, 123, 207, 0.1);
+
+}
+.step1_info{
+  border-radius: 55px;
+  padding: 20px;
+  transition: linear 0.3s;
+}
+.step1_info:hover{
+  box-shadow: 0px 15px 15px 0px rgba(38, 123, 207, 0.1);
+
+
+}
+.step1__title{
+  margin-bottom: 15px;
+}
+.title_bottom1{
+  text-align: left;
+  margin-right: 50px;
+
+}
+.step_2{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.man2{
+  margin-right: 50px;
+  transition: linear 0.3s;
+
+
+  }
+  .man2:hover{
+  box-shadow: 0px 15px 15px 0px rgba(38, 123, 207, 0.1);
+
+
+  }
+  .step2_info{
+    margin-left: 50px;
+    border-radius: 55px;
+    padding: 20px;
+    transition: linear 0.3s;
+  }
+  .step2_info:hover{
+    box-shadow: 0px 15px 15px 0px rgba(38, 123, 207, 0.1);
+
+
+  }
+  .step2__title{
+    margin-bottom: 15px;
+  }
+.step2__title{
+  margin-bottom: 15px;
+}
+.title_bottom2{
+  text-align: left;
+
+
+}
+.step_3{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.man3{
+  margin-left: 50px;
+  transition: linear 0.3s;
+
+
+  }
+  .man3:hover{
+  box-shadow: 0px 15px 15px 0px rgba(38, 123, 207, 0.1);
+  }
+  .step3__title{
+    margin-bottom: 15px;
+  }
+  .step_4{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .step_5{
+    flex-direction: row;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .buyurtma{
+    font-size: 16px;
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+padding: 8px 16px;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--blue, #00BAFC);
+width: 200px;
+height: 44px;
+transition: linear 0.3s;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+
+  }
+  .buyurtma:hover{
+    background: #FFF;
+    color: #00BAFC;
+  }
+  .btnx{
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
